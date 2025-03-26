@@ -25,9 +25,8 @@
       </section>
     </main>
     <footer>
-      <p><img src="./assets/svg/ing.svg" /></p>
       <p>
-        <a >By:小宝贝集团</a>
+        By:小宝贝集团
       </p>
     </footer>
   </section>
