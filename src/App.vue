@@ -3,8 +3,8 @@
     <header>
       <div class="main">
         <div class="logo">
-          <img src="https://q1.qlogo.cn/g?b=qq&nk=1655466387&s=640" />
-          <span>今日热榜</span>
+          <--<img src="https://q1.qlogo.cn/g?b=qq&nk=1655466387&s=640" />-->
+          <span>老宝贝今日热榜</span>
         </div>
         <h2>提供各站热榜热搜聚合</h2>
       </div>
