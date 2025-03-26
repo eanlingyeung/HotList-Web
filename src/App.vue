@@ -5,7 +5,6 @@
         <div class="logo">
           <span>老宝贝热榜</span>
         </div>
-        <h2>提供各站热榜热搜聚合</h2>
       </div>
     </header>
     <main>
@@ -69,7 +68,7 @@ const vhInit = async () => {
   try {
     const res = await fetch('https://hot-api.vhan.eu.org/v2?type=all')
     await new Promise((r) => setTimeout(r, 666))
-    toast({ title: 'Init', description: '热榜获取成功' })
+    toast({ title: '通知', description: '热榜获取成功' })
     const { data } = await res.json()
     hotlistKey.value.forEach((i: any) => {
       const currentItem = data.find((item: any) => item.name == i.name)
